@@ -2,8 +2,6 @@
 #include <unordered_map>
 #include <vector>
 
-//using namespace std;
-
 std::vector<int> arr_intersection(const std::vector<int> arr_A, const std::vector<int> arr_B)
 {
         std::unordered_map<int,int> hash_map;
